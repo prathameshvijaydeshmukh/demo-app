@@ -1,0 +1,18 @@
+.image-div {
+  height: 250px;
+  width: 100vw;
+  background-image: url("/public/image/istockphoto-1150524827-170667a.jpg");
+}
+
+.searchbar {
+  background-color: #fff;
+  height: 48px;
+  width: 390px;
+  margin-left: 4px;
+  border: 2px solid rgb(255, 253, 253);
+  border-radius: 12px;
+}
+
+.vw {
+  width: 65px;
+}

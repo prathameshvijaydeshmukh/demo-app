@@ -1,0 +1,17 @@
+.icon {
+  border: #2196f3 1px solid;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  padding: 3px 3px;
+  margin-left: 6px;
+}
+
+.iconify {
+  color: blue;
+  font-size: 30px;
+}
+
+.gap {
+  gap: 9%;
+}

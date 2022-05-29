@@ -1,0 +1,7 @@
+.searchbar {
+  background-color: #fff;
+  height: 48px;
+  width: 390px;
+  border: 2px solid rgb(255, 253, 253);
+  border-radius: 12px;
+}
