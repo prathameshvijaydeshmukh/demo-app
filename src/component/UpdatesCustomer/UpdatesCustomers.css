@@ -1,0 +1,21 @@
+.box-radius {
+  border-radius: 10px;
+}
+
+.font-size {
+  font-size: 13px;
+}
+
+.font-weight {
+  font-weight: 100;
+}
+
+.half-image {
+  background-position: center;
+  background-size: cover;
+  height: 100px;
+  width: 175px;
+  background-color: rgb(135, 154, 186);
+  overflow: hidden;
+  /* background-image: url("https://lh5.googleusercontent.com/p/AF1QipMEFi6K1zWtJtUmsQ-DpZwZ-IYAXJcj1xHwGye6=w174-h114-p-k-no"); */
+}

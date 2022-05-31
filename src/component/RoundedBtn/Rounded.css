@@ -7,11 +7,15 @@
   margin-left: 6px;
 }
 
-.iconify {
+.icon .iconify {
   color: blue;
   font-size: 30px;
 }
 
-.gap {
-  gap: 9%;
+.icon-text {
+  font-size: small;
+}
+
+.icon-main {
+  height: 108px;
 }

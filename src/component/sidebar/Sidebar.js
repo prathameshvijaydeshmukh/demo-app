@@ -1,19 +1,26 @@
 import React from "react";
 import FirstCompo from "../FirstCompo/FirstCompo";
-import Text from "../Text/Text";
+import AddressCompo from "../ListCompo/AddressCompo";
+import RoundedBtn from "../RoundedBtn/RoundedBtn";
+import MadrasPark from "../MadrasPark/MadrasPark";
 import "./sidebar.css";
+import UpdatesCustomers from "../UpdatesCustomer/UpdatesCustomers";
+import PhotosCompo from "../PhotosCompo/PhotosCompo";
+import Directory from "../DirectoryCompo/DirectoryCompo";
+import ReviewSummaryCompo from "../ReviewSummaryCompo/ReviewSummaryCompo";
+import ReviewCompo from "../../ReviewCompo/ReviewCompo";
 
 function Sidebar() {
   return (
     <div>
       <button
-        className="btn btn-primary"
+        className="btn-edit"
         type="button"
         data-bs-toggle="offcanvas"
         data-bs-target="#offcanvasScrolling"
         aria-controls="offcanvasScrolling"
       >
-        Enable body scrolling
+        X
       </button>
 
       <div
@@ -28,58 +35,22 @@ function Sidebar() {
           <h5 className="offcanvas-title" id="offcanvasScrollingLabel"></h5>
           <button
             type="button"
-            className="btn-close text-reset"
+            className="btn-close  text-reset"
             data-bs-dismiss="offcanvas"
             aria-label="Close"
           ></button>
-          <FirstCompo />
         </div>
         <div className="offcanvas-body p-0">
-          <p>
-            <Text />
-          </p>
+          <FirstCompo />
+          <MadrasPark />
+          <RoundedBtn />
+          <AddressCompo />
+          <UpdatesCustomers />
+          <PhotosCompo />
+          <Directory />
+          <ReviewSummaryCompo />
+          <ReviewCompo />
         </div>
-      </div>
-      <div
-        className="offcanvas offcanvas-start"
-        tabindex="-1"
-        id="offcanvasWithBackdrop"
-        aria-labelledby="offcanvasWithBackdropLabel"
-      >
-        <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasWithBackdropLabel">
-            Offcanvas with backdrop
-          </h5>
-          <button
-            type="button"
-            className="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div className="offcanvas-body">
-          <p>.....</p>
-        </div>
-      </div>
-      <div
-        className="offcanvas offcanvas-start"
-        data-bs-scroll="true"
-        tabindex="-1"
-        id="offcanvasWithBothOptions"
-        aria-labelledby="offcanvasWithBothOptionsLabel"
-      >
-        <div className="offcanvas-header">
-          <h5 className="offcanvas-title" id="offcanvasWithBothOptionsLabel">
-            Backdroped with scrolling
-          </h5>
-          <button
-            type="button"
-            className="btn-close text-reset"
-            data-bs-dismiss="offcanvas"
-            aria-label="Close"
-          ></button>
-        </div>
-        <div className="offcanvas-body"></div>
       </div>
     </div>
   );

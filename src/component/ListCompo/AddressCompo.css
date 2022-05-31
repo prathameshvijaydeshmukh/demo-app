@@ -1,0 +1,23 @@
+.txt {
+  margin-left: 23px;
+}
+
+.add .iconify {
+  color: blue;
+}
+
+.fss {
+  font-size: 25px;
+}
+
+.edit-text {
+  align-items: center;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+  border: #2196f3 1px solid;
+}
+
+.edit-radius {
+  border-radius: 30px;
+}

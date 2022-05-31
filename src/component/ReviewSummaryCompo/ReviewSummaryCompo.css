@@ -1,0 +1,32 @@
+.w-10 {
+  width: 10px;
+}
+
+.progress-bar {
+  color: yellow;
+}
+
+.fs {
+  font-size: 40px;
+}
+
+.small-circle {
+  margin-top: 20px;
+  background-color: blueviolet;
+  border: #2196f3 1px solid;
+  width: 68px;
+  border-radius: 50%;
+  height: 40px;
+}
+
+.edit-w {
+  width: 200px;
+}
+
+.review {
+  border-radius: 10px;
+}
+
+.starr {
+  margin-top: -6px;
+}

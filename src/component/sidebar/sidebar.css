@@ -1,10 +1,10 @@
 .btn-close {
   top: 299px;
-  left: 397px;
+  left: 405px;
   position: absolute;
 }
 
-.btn {
+.btn-edit {
   position: absolute;
   top: 45%;
 }

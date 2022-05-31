@@ -1,0 +1,40 @@
+.review-circle {
+  background-color: blueviolet;
+  border: #2196f3 1px solid;
+  width: 40px;
+  border-radius: 50%;
+  height: 40px;
+}
+
+.text-head {
+  margin-left: 8px;
+}
+
+.edit-mb {
+  margin-left: 8px;
+  font-size: small;
+}
+
+.color1 {
+  width: 189px;
+  height: 100px;
+  background-color: aqua;
+}
+
+.color2 {
+  width: 191px;
+  height: 100px;
+  background-color: rgb(84, 191, 93);
+}
+
+.color3 {
+  width: 189px;
+  height: 100px;
+  background-color: rgb(255, 0, 247);
+}
+
+.color4 {
+  width: 191px;
+  height: 100px;
+  background-color: rgb(191, 175, 84);
+}
