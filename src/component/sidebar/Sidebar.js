@@ -9,6 +9,7 @@ import PhotosCompo from "../PhotosCompo/PhotosCompo";
 import Directory from "../DirectoryCompo/DirectoryCompo";
 import ReviewSummaryCompo from "../ReviewSummaryCompo/ReviewSummaryCompo";
 import ReviewCompo from "../../ReviewCompo/ReviewCompo";
+import WebResultCompo from "../WebResultCompo/WebResultCompo";
 
 function Sidebar() {
   return (
@@ -50,6 +51,7 @@ function Sidebar() {
           <Directory />
           <ReviewSummaryCompo />
           <ReviewCompo />
+          <WebResultCompo />
         </div>
       </div>
     </div>

@@ -2,4 +2,16 @@
   background-color: #61dafb;
   height: 100vh;
   width: 100vw;
+  /* background-image: url("/public/image/istockphoto-1150524827-170667a.jpg"); */
+}
+
+.back-bor {
+  background: #fff;
+  border: none;
+}
+
+.button-edit {
+  position: absolute;
+  top: 15px;
+  left: 10px;
 }

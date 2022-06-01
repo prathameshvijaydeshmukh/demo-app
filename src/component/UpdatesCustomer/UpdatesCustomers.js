@@ -6,7 +6,7 @@ export default function UpdatesCustomers() {
     <>
       <div className="m-3">
         <b>Updates For Customers</b>
-        <div className="border d-flex box-radius">
+        <div className="border d-flex box-radius my-3">
           <div className="col-6 p-2 font-size">
             <p className="mb-0">Really very nice so happy here.</p>
             <span className="font-weight">a month ago</span>

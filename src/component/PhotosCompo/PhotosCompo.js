@@ -5,7 +5,7 @@ function PhotosCompo() {
   return (
     <div className="m-3">
       <b>Photos</b>
-      <div className="d-flex justify-content-between">
+      <div className="d-flex justify-content-between my-4">
         <div className="Image"></div>
         <div className="Image"></div>
         <div className="Image"></div>
